@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+
+body{
+    font-family: 'Lato';
+    color: #424551;
+    background-color: #F4F5F6;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+}
+.header {
+}
+.page {
+}
+.page__container {
+
+}
+[class*="__container"]{
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-left: 15px;
+	padding-right: 15px;
+}
+.body {
+    display: flex;
+    gap: 185px;
+}
+.body__media {
+    max-width: 100%;
+}
+.body__content {
+
+}
+.content-body {
+}
+.content-body__title {
+}
+.title {
+    color: #1E212C;
+    margin-bottom: 40px;
+}
+.title__sub {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 150%;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.title__main {
+    font-weight: 900;
+font-size: 46px;
+line-height: 130%;
+
+}
+.content-body__form {
+}
+.form {
+    max-width: 495px ;
+}
+
+
+
+.form__body {
+}
+.form__label {
+    line-height: 160%;
+    max-width: 100%;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.label--name {
+}
+.form__input {
+    max-width: 100%;
+    padding: 13px 0 13px 16px;
+    border: 1px solid #D7DADD;
+    border-radius: 4px;
+}
+.form__input:not(:last-of-type){
+    margin-bottom: 24px;
+}
+
+.input--name {
+}
+.label--mail {
+}
+.input--mail {
+}
+.label--tel {
+}
+.input--tel {
+}
+
+.form__input:last-of-type{
+    margin-bottom: 40px;
+}
+
+.form__button {
+    color: #ffff;
+    width: 100%;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    line-height: 52px;
+    font-weight: 700;
+
+   
+}
+
+
+
+
+
+
+
+
+.input {
+    border: 2px solid black;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.form__line {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+
+.form__range{
+    margin-bottom: 20px;
+}
+
+.checkbox{
+    width: auto; 
+    margin-bottom: 20px;
+}
+
+.radio__btn {
+    width: auto;
+}
+
+.list {
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 5px;
+    border: 1px solid black;
+    max-width: 100px;
+}
